@@ -47,7 +47,7 @@ let player = RegularPlayer()
 
 view.addSubview(player.view) // RegularPlayer conforms to `ProvidesView`, so we can add its view
 
-player.set(asset: AVURLAsset(URL: "https://example.com/video.mp4"))
+player.set(AVURLAsset(URL: "https://example.com/video.mp4"))
 
 player.play()
 ```
